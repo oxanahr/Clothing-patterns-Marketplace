@@ -1,3 +1,6 @@
-<meta name="_csrf" th:content="${_csrf.token}"/>
+<meta name="_csrf" th:content="${_csrf.token}" xmlns:th="http://www.springframework.org/schema/beans"
+      xmlns:th="http://www.w3.org/1999/xhtml"/>
 <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
 <title th:if="${pageTitle}" th:text="${pageTitle}"></title>
+<link rel="stylesheet" href="../static/login-register/css/style.css" th:href="@{/login-register/css/search.css}"/>
+
