@@ -12,6 +12,6 @@ public class LoginAndRegisterController {
     public String showRegistrationPage(Model model) {
         model.addAttribute("userDto", new UserRegisterDto());
 
-        return "register";
+        return "/user/login-register";
     }
 }
